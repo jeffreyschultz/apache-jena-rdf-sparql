@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+    implementation "org.apache.jena:jena-core:4.4.0"
+    implementation "org.apache.jena:jena-base:4.4.0"
+    implementation "org.apache.jena:jena-arq:4.4.0"
+}
+
+repositories {
+    mavenCentral()
+}
